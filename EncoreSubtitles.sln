@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EncoreSubtitles", "EncoreSubtitles.vbproj", "{31041553-531A-4272-B300-BD6D84682839}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImportSubFiles", "ImportSubFiles\ImportSubFiles.vbproj", "{0F4641B5-DF3F-4C96-ABCC-19D3D0715A72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExportSubFiles", "ExportSubFiles\ExportSubFiles.vbproj", "{EB6DBA8F-C6D1-49EE-970B-13DB39996807}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XMLAccessor", "XMLAccessor\XMLAccessor.vbproj", "{95061CFB-A0C5-4855-A2D5-DD7025AA5E0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EncoreSubtitlesCommon", "FSManager\EncoreSubtitlesCommon.vbproj", "{79EB05E1-D72F-4E2B-96A5-0317ABFDFFD0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Deployment", "Deployment\Deployment.vdproj", "{EFAF270B-3FCC-4F2F-BF62-C7198BAA7F0F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EncoreSubtitlesFilters", "EncoreSubtitlesFilters\EncoreSubtitlesFilters.vbproj", "{CB02857D-15AC-4DD8-8D9F-1A892C12EBE9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{31041553-531A-4272-B300-BD6D84682839}.Debug.ActiveCfg = Debug|.NET
+		{31041553-531A-4272-B300-BD6D84682839}.Debug.Build.0 = Debug|.NET
+		{31041553-531A-4272-B300-BD6D84682839}.Release.ActiveCfg = Release|.NET
+		{31041553-531A-4272-B300-BD6D84682839}.Release.Build.0 = Release|.NET
+		{0F4641B5-DF3F-4C96-ABCC-19D3D0715A72}.Debug.ActiveCfg = Debug|.NET
+		{0F4641B5-DF3F-4C96-ABCC-19D3D0715A72}.Debug.Build.0 = Debug|.NET
+		{0F4641B5-DF3F-4C96-ABCC-19D3D0715A72}.Release.ActiveCfg = Release|.NET
+		{0F4641B5-DF3F-4C96-ABCC-19D3D0715A72}.Release.Build.0 = Release|.NET
+		{EB6DBA8F-C6D1-49EE-970B-13DB39996807}.Debug.ActiveCfg = Debug|.NET
+		{EB6DBA8F-C6D1-49EE-970B-13DB39996807}.Debug.Build.0 = Debug|.NET
+		{EB6DBA8F-C6D1-49EE-970B-13DB39996807}.Release.ActiveCfg = Release|.NET
+		{EB6DBA8F-C6D1-49EE-970B-13DB39996807}.Release.Build.0 = Release|.NET
+		{95061CFB-A0C5-4855-A2D5-DD7025AA5E0D}.Debug.ActiveCfg = Debug|.NET
+		{95061CFB-A0C5-4855-A2D5-DD7025AA5E0D}.Debug.Build.0 = Debug|.NET
+		{95061CFB-A0C5-4855-A2D5-DD7025AA5E0D}.Release.ActiveCfg = Release|.NET
+		{95061CFB-A0C5-4855-A2D5-DD7025AA5E0D}.Release.Build.0 = Release|.NET
+		{79EB05E1-D72F-4E2B-96A5-0317ABFDFFD0}.Debug.ActiveCfg = Debug|.NET
+		{79EB05E1-D72F-4E2B-96A5-0317ABFDFFD0}.Debug.Build.0 = Debug|.NET
+		{79EB05E1-D72F-4E2B-96A5-0317ABFDFFD0}.Release.ActiveCfg = Release|.NET
+		{79EB05E1-D72F-4E2B-96A5-0317ABFDFFD0}.Release.Build.0 = Release|.NET
+		{EFAF270B-3FCC-4F2F-BF62-C7198BAA7F0F}.Debug.ActiveCfg = Debug
+		{EFAF270B-3FCC-4F2F-BF62-C7198BAA7F0F}.Release.ActiveCfg = Release
+		{CB02857D-15AC-4DD8-8D9F-1A892C12EBE9}.Debug.ActiveCfg = Debug|.NET
+		{CB02857D-15AC-4DD8-8D9F-1A892C12EBE9}.Debug.Build.0 = Debug|.NET
+		{CB02857D-15AC-4DD8-8D9F-1A892C12EBE9}.Release.ActiveCfg = Release|.NET
+		{CB02857D-15AC-4DD8-8D9F-1A892C12EBE9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
