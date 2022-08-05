@@ -1,5 +1,7 @@
 ## EncoreSubtitle
 
+![](https://stratosphere631.files.wordpress.com/2011/05/encoresubtitle.png "§Title")
+
 ### Features
 
 - Microsoft SAMI and MicroDVD subtitle formats are available.
